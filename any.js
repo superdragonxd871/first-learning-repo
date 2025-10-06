@@ -551,3 +551,69 @@
 // b.removeChild(c)
 
 //BY COURSE LECTURE NUMBER 73
+
+// const a = document.getElementById("btn");
+// a.addEventListener('click',()=>{
+//     alert('hey you click the button')
+// })
+
+
+// let a = document.querySelector('input')
+// console.log(a)
+// a.addEventListener('keyup',(event)=>{
+//     alert(`you typed ${event.key}`)
+//     console.log(event)
+// })
+
+// let a = document.querySelectorAll(".box")[2]
+// console.log(a)
+// a.addEventListener('mouseover',()=>{
+//     a.style.backgroundColor = "green";
+// })
+// a.addEventListener('mouseout',()=>{
+//     a.style.backgroundColor = "purple"
+// })
+
+// BY COURSE LECTURE NUMBER 74
+
+// let a = document.getElementById("box1")
+// a.addEventListener('mouseenter',()=>{
+//     a.style.backgroundColor="red"
+// })
+// a.addEventListener('mouseleave',()=>{
+//     a.style.backgroundColor="blue"
+//     a.style.color="white"
+// })
+
+// let b = document.getElementById('box2')
+// b.addEventListener('click',()=>{
+//     b.innerHTML="hey you click on me"
+// })
+
+// BY COURSE LECTURE NUMBER 75
+
+// document.querySelector('.contanier').addEventListener("click",(any)=>{
+//     console.log('you clicked contanier')
+// })
+
+
+// let a = document.getElementById("box1")
+// a.addEventListener("click",(stop)=>{
+//     console.log("box1 is clicked")
+//     stop.stopPropagation()
+// })
+
+
+// document.querySelector(".contanier").addEventListener("click", (e) => {
+//     console.log(e.target.innerHTML)
+//     e.target.innerHTML='clicked!!'
+// })
+
+// BY COURSE LECTURE NUMBER 76
+
+// document.getElementById("nothing").addEventListener("submit",(e)=>{
+//     e.preventDefault()
+//     console.log("sumitted",e.target[0].value)
+// })
+
+//BY COURSE LECTURE NUMBER 77
